@@ -492,11 +492,6 @@ body {
   margin-top: 16px;
   width: 264px;
 }
-
-.footer-container {
-  display: flex;
-}
-
 .footer-header-social {
   font-weight: 500;
   font-size: 16px;
@@ -552,6 +547,10 @@ body {
   align-items: center;
 }
 
+.subscribe-form {
+  width: 100%;
+}
+
 .footer-form-text {
   margin-bottom: 16px;
   font-style: normal;
@@ -599,13 +598,13 @@ body {
   outline: transparent;
   transition: color 0.35s cubic-bezier(0.4, 0, 0.2, 1),
     background 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  width: 264px;
   height: 40px;
   padding: 8px 16px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
+  width: 100%;
 }
 
 .subscribe-icon {
@@ -614,10 +613,6 @@ body {
 
 .sub-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.sub-form-wrap {
-  margin-left: auto;
 }
 
 /* /footer */
