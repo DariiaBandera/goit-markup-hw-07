@@ -441,9 +441,16 @@ body {
 }
 
 /* footer */
+
 .footer {
   background: var(--titles-with-prgh-color);
   padding: 100px 0;
+}
+
+.footer-display {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .logo-footer {
