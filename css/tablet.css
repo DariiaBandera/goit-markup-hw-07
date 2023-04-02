@@ -262,10 +262,6 @@
     width: 264px;
   }
 
-  .footer-container {
-    display: flex;
-  }
-
   .footer-display {
     display: flex;
     flex-direction: row;
